@@ -1,0 +1,26 @@
+# .gitignore for Vue.js projects
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled files
+/dist/
+/.nuxt/
+/.idea/
+/.vscode/
+/*.log
+/*.txt
+
+# Ignore environment variables
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+
+# Ignore build artifacts
+*.bak
+*.swp
+*.zip
+*.tar
+*.tar.gz
+*.tgz
